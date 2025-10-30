@@ -35,6 +35,7 @@ After conducting the analysis, key insights will be summarized.
 
 # **Limitations and Future Work**
 ## **Limitations**
+- **Scope and Representativeness:** Dataset may not capture the full diversity of AI-generated art.
 - **External Factors:** Engagement metrics like likes or views can be affected by external factors such as platform visibility or artist reputation.
 - **Aesthetic Factors:** The analysis focuses on metadata rather than visual content, leaving aesthetic factors unexplored.
 
