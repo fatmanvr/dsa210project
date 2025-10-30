@@ -24,9 +24,9 @@ By investigating measurable data such as likes and views, this project aims to b
 
 # **Machine Learning Applications**
 - **Classification:** Predict whether an artwork is “popular” (binary target).
-Models: Logistic Regression, Decision Tree, Random Forest
+  - Models: Logistic Regression, Decision Tree, Random Forest
 - **Regression:** Predict numerical engagement level (likes or views).
-Models: Linear Regression, Random Forest Regressor
+  - Models: Linear Regression, Random Forest Regressor
 - **Feature Importance:** Identify which factors most strongly influence popularity.
 - **Visualization:** Trend lines, correlation heatmaps, feature importance charts.
 
@@ -43,4 +43,4 @@ After conducting the analysis, key insights will be summarized.
 - More advanced models, including ensemble or deep learning approaches, could further enhance predictive accuracy and uncover deeper cultural patterns in AI-driven art trends.
 
 # **Conclusion**
-This project will provide a data-driven understanding of how AI-generated art trends evolve and what factors contribute to public engagement.
+This project will provide a data-driven understanding of how AI-generated art trends evolve and what factors contribute to public engagement. By combining aesthetic intuition with quantitative analysis, the study aims to illustrate the cultural shift in creativity brought by artificial intelligence. Beyond artistic curiosity, this research highlights how machine learning can interpret human taste and digital creativity patterns in an era where algorithms shape both creation and reception.
