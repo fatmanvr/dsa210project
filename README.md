@@ -19,17 +19,11 @@ https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-an
 
 ### **Hypotheses**
 - **H1:** The popularity of AI-generated artworks has increased significantly since 2022.
-- **H2:** Certain tools (e.g., Midjourney) and specific styles (e.g., realism, fantasy) correlate with higher average engagement.
-- **H3:** Human-edited AI artworks tend to perform better than fully automated outputs.
-- **H4:** Classification models can predict “popular” artworks with >80% accuracy using categorical + numerical features.
+- **H2:** Certain tools (e.g., Midjourney) correlate with higher average engagement.
+- **H3:** Specific styles (e.g., realism, fantasy) correlate with higher average engagement.
 
 # **Machine Learning Applications**
-- **Classification:** Predict whether an artwork is “popular” (binary target).
-  - Models: Logistic Regression, Decision Tree, Random Forest
-- **Regression:** Predict numerical engagement level (likes or views).
-  - Models: Linear Regression, Random Forest Regressor
-- **Feature Importance:** Identify which factors most strongly influence popularity.
-- **Visualization:** Trend lines, correlation heatmaps, feature importance charts.
+After applying ML methods, the outcomes will be summarized.
 
 # **Findings and Insights**
 After conducting the analysis, key insights will be summarized.
