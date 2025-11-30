@@ -7,7 +7,8 @@ By investigating measurable data such as likes and views, this project aims to b
 
 # **Data Sources and Collection Methods**
 - Public datasets from Kaggle
-- Scraped metadata from art-sharing platforms (DeviantArt, ArtStation, or HuggingFace Spaces).
+( https://www.kaggle.com/datasets/waqi786/ai-generated-art-trends
+https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-and-market-trends )
 
 # **Exploratory Data Analysis (EDA)**
 - **Data Cleaning:** handle missing values, encode categorical variables (One-Hot Encoding).
