@@ -11,16 +11,16 @@ By investigating measurable data such as likes and views, this project aims to b
 https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-and-market-trends )
 
 # **Exploratory Data Analysis (EDA)**
-- **Data Cleaning:** handle missing values, encode categorical variables (One-Hot Encoding).
-- **Descriptive Statistics:** summarize distributions of likes, views, and comments.
-- **Correlation Analysis:** check relationships between numerical features.
-- **Trend Analysis:** time series or grouped bar plots for year vs. tool/style popularity.
-- **Category Comparison:** violin plots or boxplots of likes/views by tool or style.
+- **Data Cleaning:** Handled missing values and ensured data quality.
+- **Descriptive Statistics:** Calculated summary statistics for popularity metrics such as Popularity_Score, Likes, and Engagement_Score.
+- **Correlation Analysis:** Numerical correlations were explored through a heatmap after applying one-hot encoding to categorical variables.
+- **Category Comparison:** Boxplots and bar charts were used to compare popularity across categorical variables such as art style, creator type, tool, and region.
 
 ### **Hypotheses**
-- **H1:** The popularity of AI-generated artworks has increased significantly since 2022.
-- **H2:** Certain tools (e.g., Midjourney) correlate with higher average engagement.
-- **H3:** Specific styles (e.g., realism, fantasy) correlate with higher average engagement.
+- **H1:** Popularity has significantly increased after 2022.
+- **H2:** Certain tools correlate with higher average engagement.
+- **H3:** Human-edited (Hybrid) artworks perform better than fully AI-generated ones.
+- **H4:** Art style significantly affects popularity.
 
 # **Machine Learning Applications**
 After applying ML methods, the outcomes will be summarized.
