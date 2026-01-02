@@ -24,6 +24,7 @@ https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-an
 
 # **Machine Learning Applications**
 ### **1. Regression Models**
+Objective: Predict the numerical popularity score from metadata features.
 **Models used:**
 - Ridge Regression (linear baseline)
 - Random Forest Regressor (non-linear ensemble)
@@ -32,6 +33,7 @@ https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-an
 - Root Mean Squared Error (RMSE), R² score
 
 ### **2. Classification Models**
+Objective: Reformulate the task as binary classification to distinguish between high- and low-popularity artworks (based on median popularity).
 **Models used:**
 - Logistic Regression
 - Random Forest Classifier
