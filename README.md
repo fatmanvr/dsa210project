@@ -27,6 +27,7 @@ https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-an
 **Models used:**
 - Ridge Regression (linear baseline)
 - Random Forest Regressor (non-linear ensemble)
+
 **Evaluation metrics:**
 - Root Mean Squared Error (RMSE), R² score
 
@@ -34,6 +35,7 @@ https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-an
 **Models used:**
 - Logistic Regression
 - Random Forest Classifier
+
 **Evaluation metrics:**
 - Accuracy, ROC-AUC, Confusion Matrix, Precision, Recall, F1-score
 
