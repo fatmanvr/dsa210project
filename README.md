@@ -23,20 +23,41 @@ https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-an
 - **H4:** Art style significantly affects popularity.
 
 # **Machine Learning Applications**
-After applying ML methods, the outcomes will be summarized.
+### **1. Regression Models**
+Models used:
+- Ridge Regression (linear baseline),
+- Random Forest Regressor (non-linear ensemble).
+Evaluation metrics:
+- Root Mean Squared Error (RMSE), R² score.
+### **2. Classification Models**
+Models used:
+- Logistic Regression,
+- Random Forest Classifier.
+Evaluation metrics:
+- Accuracy, ROC-AUC, Confusion Matrix, Precision, Recall, and F1-score.
 
 # **Findings and Insights**
-After conducting the analysis, key insights will be summarized.
+Across all stages—EDA, hypothesis testing, regression, and classification—the results consistently point to the same conclusion:
+AI-generated artwork popularity cannot be reliably explained or predicted using metadata alone.
+Key insights:
+- Neither linear nor non-linear models capture meaningful predictive signals.
+- Popularity appears to be driven by latent factors not present in the dataset, such as:
+  visual and aesthetic qualities of the artwork, platform recommendation algorithms, viral diffusion and social exposure, external reputation effects etc.
+
+Machine learning played a crucial role in validating the limits of predictability, rather than merely optimizing performance.
 
 # **Limitations and Future Work**
-## **Limitations**
-- **Scope and Representativeness:** Dataset may not capture the full diversity of AI-generated art.
-- **External Factors:** Engagement metrics like likes or views can be affected by external factors such as platform visibility or artist reputation.
-- **Aesthetic Factors:** The analysis focuses on metadata rather than visual content, leaving aesthetic factors unexplored.
+### **Limitations**
+- The analysis relies exclusively on metadata and excludes image content, leaving aesthetic factors unexplored.
+- Engagement metrics like likes, views can be affected by external factors such as platform-specific dynamics, algorithmic exposure and social factors like artists reputation.
 
-## **Future Work**
-- Future work could include larger, multi-platform datasets and integrate image-based features such as color or composition.
-- More advanced models, including ensemble or deep learning approaches, could further enhance predictive accuracy and uncover deeper cultural patterns in AI-driven art trends.
+### **Future Work**
+Future extensions of this project could:
+- incorporate image-based features using convolutional neural networks (CNNs),
+- apply multimodal models combining visual and metadata inputs,
+- include platform-level exposure data (e.g., impressions, follower counts),
+- explore causal inference methods to disentangle popularity drivers.
 
 # **Conclusion**
-This project will provide a data-driven understanding of how AI-generated art trends evolve and what factors contribute to public engagement. By combining aesthetic intuition with quantitative analysis, the study aims to illustrate the cultural shift in creativity brought by artificial intelligence. Beyond artistic curiosity, this research highlights how machine learning can interpret human taste and digital creativity patterns in an era where algorithms shape both creation and reception.
+This project demonstrates that null or negative predictive results can be meaningful and informative in data science. By systematically applying statistical analysis and machine learning techniques, we show that metadata alone is insufficient to explain engagement patterns in AI-generated art.
+Rather than indicating failure, these findings highlight the complexity of cultural and creative domains and emphasize the importance of feature selection and data scope when applying machine learning to real-world problems.
