@@ -24,17 +24,18 @@ https://www.kaggle.com/datasets/atharvasoundankar/ai-generated-art-popularity-an
 
 # **Machine Learning Applications**
 ### **1. Regression Models**
-Models used:
-- Ridge Regression (linear baseline),
-- Random Forest Regressor (non-linear ensemble).
-Evaluation metrics:
-- Root Mean Squared Error (RMSE), R² score.
+**Models used:**
+- Ridge Regression (linear baseline)
+- Random Forest Regressor (non-linear ensemble)
+**Evaluation metrics:**
+- Root Mean Squared Error (RMSE), R² score
+
 ### **2. Classification Models**
-Models used:
-- Logistic Regression,
-- Random Forest Classifier.
-Evaluation metrics:
-- Accuracy, ROC-AUC, Confusion Matrix, Precision, Recall, and F1-score.
+**Models used:**
+- Logistic Regression
+- Random Forest Classifier
+**Evaluation metrics:**
+- Accuracy, ROC-AUC, Confusion Matrix, Precision, Recall, F1-score
 
 # **Findings and Insights**
 Across all stages—EDA, hypothesis testing, regression, and classification—the results consistently point to the same conclusion:
