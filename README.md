@@ -1,5 +1,5 @@
 # AI-Art-DSA210-Project
-AI Art Trends: Analysis of Popularity and Style Evolution Data Science Project Report
+A Data-Driven Analysis of Popularity in AI-Generated Art
 
 # **Introduction (Motivation)**
 The rise of AI-generated art has reshaped creative production, democratizing access while raising debates about originality and artistic value. Despite the artistic discussions, there is limited quantitative analysis of how the public engages with different AI-generated styles or tools.
